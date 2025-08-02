@@ -1,0 +1,24 @@
+---
+title: "trabajo"
+author: "Nahue y agus"
+date: "2025-08-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readxl)
+```
+```{r setup, include=FALSE}
+salario_privado <- read_excel("Salario-promedio-por-departamento.xlsx", 
+    sheet = "Total sector privado")
+
+salario_publico <- read_excel("Salario-promedio-por-departamento.xlsx", 
+    sheet = "Total sector público")
+
+ salario_total_empresas <- read_excel("Salario-promedio-por-departamento.xlsx", 
+    sheet = "Total empresas")
+salario_total_empresas <- read_excel("Salario-promedio-por-departamento.xlsx", 
+    sheet = "Total empresas")
+
+```
